@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PathFinder: Survival Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui-overlay">
+        <div id="status-bar">Level: <span id="level-val">1</span></div>
+        <div id="timer-container"><div id="timer-bar"></div></div>
+    </div>
+
+    <div id="death-screen">RETRYING LEVEL...</div>
+
+    <canvas id="gameCanvas"></canvas>
+
+    <div class="controls-container">
+        <button class="ctrl-btn" id="up">↑</button>
+        <div class="ctrl-row">
+            <button class="ctrl-btn" id="left">←</button>
+            <button class="ctrl-btn" id="down">↓</button>
+            <button class="ctrl-btn" id="right">→</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
