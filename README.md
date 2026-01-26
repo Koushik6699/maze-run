@@ -1,4 +1,4 @@
-# 🧩 PathFinder: Survival Edition
+# 🧩 maze-run: Survival Edition
 
 A high-stakes, full-screen **web-based maze runner** built with vanilla JavaScript. Navigate through procedurally generated garden labyrinths, manage your oxygen/time, and outrun the stalker to reach the next portal.
 
